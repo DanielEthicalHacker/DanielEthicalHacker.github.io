@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Daniel Hustler - Portifolio</title>
+        <link rel="stylesheet" href="style.css"/>
+        <script src="./script.js"></script>
+    </head>
+  <body>
+      <!-- Navigation Bar -->
+      <nav>
+        <div id="home">
+          <div class="profile_name">
+            Daniel NIYOMUGENGA
+            <div class="contact_info">
+              <img src="envelope.png" alt="email logo"/>
+            danielhustler.hacker@gmail.com
+          </div>
+          <div style="clear:both;"></div>
+          <div class="contact_info">
+            <img src="phone.png" alt="phone logo"/>
+            +250 79 183 2842
+
+          </div>
+          </div>
+          <div class="topdiv">
+            <a class="topmenu" href="#about-me">About Me</a>
+            <!-- Add the links for Skills, Projects and Recommendation here -->
+            <a class="topmenu" href="#skills">My skills</a>
+            <a class="topmenu" href="#projects">My projects</a>
+            <a class="topmenu" href="#recommendations">Recommendation</a>
+
+          </div>
+        </div>    
+      </navx`>
+
+      <!-- About Me -->
+      <section id="about-me" class="container">
+        <div>
+          <img src="DanielHustler.jpg" class="profile_image"/>
+        </div>
+
+        <div>
+            <h1>
+              Hi, I'm Daniel NIYOMUGENGA! <img src="waving-hand.png" width="60px"/>
+            </h1>
+            <p>
+              I am a full stack developer with 3 years of experience in both application and presentation layers.
+              I am a committed worker with integrity having served over 3 companies in the field of IT specifically 
+              software development and other devOps.
+            </p>
+        </div>
+      </section>
+                
+      <!-- Skills -->
+      <section id="skills">
+        <h2>Skills</h2>
+        <div style="clear:both;"></div>
+
+        <div class="all_skills">
+          <div class="skill">
+            <img src="html5.png"/>
+            <h6>HTML</h6>
+            <p>3 years experience</p>
+          </div>  
+
+          <div class="skill">
+            <img src="js.jpeg"/>
+            <h6>JavaScript</h6>
+            <p>2 years experience</p>
+          </div>  
+
+          <!-- Add more skills here -->
+          <div class="skill">
+            <img src="CSS3.png" alt="">
+            <h6>CSS</h6>
+            <p>3 years experience</p>
+          </div>
+
+          <div class="skill">
+            <img src="java.png" alt="">
+            <h6>Java</h6>
+            <p>1 years experience</p>
+          </div>
+
+          <div class="skill">
+            <img src="react.png" alt="">
+            <h6>React</h6>
+            <p>2 years experience</p>
+          </div>
+
+          <div class="skill">
+            <img src="node.png" alt="">
+            <h6>Node JS</h6>
+            <p>2 years experience</p>
+          </div>
+
+        </div>
+      </section>
+            
+      <!-- Projects -->
+      <section class="projects" id="projects">
+        <h2>
+          Projects
+        </h2>
+        <div style="clear:both;"></div>
+
+          <div id="projects-container" class="projects-container">
+            <div class="project-card">
+              <h3>Your AI Assistant</h3>
+              <ul>
+                <li>Developed a secure website integrated with chatbot for an automobile client using HTML, CSS, JavaScript and IBM Watson Assistant</li>
+              </ul>
+            </div>
+            <hr>
+            <div class="project-card">
+              <h3>Packet Analyzer</h3>
+              <ul>
+                <li>Developed and deployed a Packet analyzer for our cybersecurity team to enhance on thir packet capture and filtering the incoming traffic for malware analysis.</li>
+              </ul>
+            </div>
+            <hr>
+            <div class="project-card">
+              <h3>Online Fashion Simulation</h3>
+              <ul>
+                <li>Developed an online fashion simulation website where you get to wear a cloth digitally and you get to know if it is a perfect match for your body.
+                  This onine simulation is believed to be almost 100 percent precise.
+                </li>
+              </ul>
+            </div>
+      </div>
+      </section>
+      <div style="clear:both;"></div>
+
+      <!-- Recommendations -->
+      <section id="recommendations">
+        <h2>Recommendations</h2>
+        <div style="clear:both;"></div>
+        <div class="all_recommendations" id="all_recommendations">
+          <div class="recommendation">
+            <span>&#8220;</span>
+            Daniel is a self-motivated person who is good at team work and motivation.
+            After working together on the onine shopping software I got a chance to know that 
+            this is the only person who is perseverant and committed I have ever come across in 
+            the entire human kind in the entire universe.
+            <span>&#8221;</span>
+          </div>
+          <div class="recommendation">
+            <span>&#8220;</span>
+            Daniel is the most committed person you will ever come across to in the entire universe.
+            I am saying this because I got a chance to witness his courage, optimism, good self image and 
+            most importantly his words of encouragement and ever lasting motivation.
+            <span>&#8221;</span>
+          </div>
+          <div class="recommendation">
+            <span>&#8220;</span>
+            Having a chance to witness the unwavering and relentless man at worker, the one I am talking 
+            about is Daniel. He's the only person in the entire universe you will ever come across who always
+            sees a challenge as a great to opportunity to explore his potential. He is indeed a lion-hearted person.
+            <span>&#8221;</span>
+          </div>
+        </div>
+      </section>
+
+      <!-- Recommendation Form -->
+      <section id="contact">
+        <div class="flex_center">
+          <fieldset>
+            <legend class="introduction">Leave a Recommendation</legend>          
+            <input type="text" placeholder="Name (Optional)"> <br/>
+            <textarea id="new_recommendation" cols="500" rows="10" placeholder="Message"></textarea>
+            <div class="flex_center">
+              <button id="recommend_btn" onclick="addRecommendation()">Submit</button>
+            </div>
+          </fieldset>
+        </div>
+      </section>
+
+      <div class="iconbutton">
+        <a href="#home">
+          <!--Add the code here for the logo to appear and the icon to be actionable-->
+          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="white" width="63px">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M15 11.25l-3-3m0 0l-3 3m3-3v7.5M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+          </svg>
+        </a>
+      </div>
+
+      <div class="popup" id="popup" class="flex_center">
+        <img src="checkmark--outline.svg"/>
+        <h3>Thanks for leaving a recommendation!</h3>
+        <button onclick="showPopup(false)">Ok</button>
+      </div>
+  </body>
+</html>
